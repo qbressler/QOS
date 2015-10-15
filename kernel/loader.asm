@@ -1,7 +1,7 @@
 bits 32
 
 global loader
-extern kmain
+extern kmain ; entry point to C
 
 ; Multiboot header
 MODULEALIGN equ   1<<0
