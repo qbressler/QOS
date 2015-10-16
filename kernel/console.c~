@@ -163,7 +163,7 @@ void ConsoleWriteStringColored (string s, uint8 color)
 		if(*s == '\n')
 		{
 			ConsoleCursor.Y++;
-			ConsoleCursor.X = 0;
+			//ConsoleCursor.X = 0;
 		}
 		ConsoleWriteCharColored (*s, color);
 		s = s + 1;

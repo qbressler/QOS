@@ -64,12 +64,12 @@ void putchar (int c)
 	if (c == '\n' || c == '\r')
 	{
 		newline:
-			ConsoleWriteString("..1");
+			
            		xpos = 0;
            		ypos++;
            		if (ypos >= LINES)
 	   		{
-	     			ConsoleWriteString("..2");
+	     			
              			ypos = 0;
            		}
            		return;
@@ -162,6 +162,7 @@ void ConsoleWriteStringColored (string s, uint8 color)
 	{
 		if(*s == '\n')
 		{
+			//TODO  fix characer
 			ConsoleCursor.Y++;
 			//ConsoleCursor.X = 0;
 		}
