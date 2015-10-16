@@ -3,4 +3,6 @@
 
 Operating System Development as an educational project. The goal of the project is to learn low level development.
 
+Tested using VirtualBox running on Ubuntu Linux
+
 
