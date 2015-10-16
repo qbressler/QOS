@@ -3,7 +3,10 @@
 void kmain (void* MultibootStructure)
 {
 	ConsoleClear();
-	ConsoleWriteString("====================\n");
-	ConsoleWriteString("Quinix(QOS) beta");
-	ConsoleWriteString("====================");
+	ConsoleWriteString("=======================\n");
+	ConsoleWriteString("   Quinix (QOS)\n");
+	ConsoleWriteString("=======================\n");
+	putchar("\n");
+	putchar("t");
+	//printf("Test\n");
 }

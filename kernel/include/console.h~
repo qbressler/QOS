@@ -33,7 +33,10 @@ extern void ConsoleWriteCharColored(char c, uint8 color);
 extern void ConsoleWriteString (string s);
 extern void ConsoleWriteLineString (string s);
 extern void ConsoleWriteStringColored (string s, uint8 color);
+extern unsigned int k_printf(char *message, unsigned int line);
 
+extern void printf (const char *format, ...);
+extern void putchar (int c);
 
 #endif
 
